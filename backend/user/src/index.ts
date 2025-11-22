@@ -20,7 +20,7 @@ redisClient.connect().then( () =>{console.log("Redis connected successfully")}).
 const app = express();
 
 app.use(express.json())
-app.use(cors())
+app.use(cors());
 app.use("/api/v1",userRoutes)
 
 

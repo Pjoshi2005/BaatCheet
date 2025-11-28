@@ -16,7 +16,6 @@
   "dependencies": {
     "@types/axios": "^0.9.36",
     "@types/dotenv": "^6.1.1",
-    "@types/express": "^5.0.5",
     "@types/jsonwebtoken": "^9.0.10",
     "axios": "^1.13.2",
     "concurrently": "^9.2.1",
@@ -24,5 +23,8 @@
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5"
   }
 }
